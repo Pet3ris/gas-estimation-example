@@ -1,0 +1,43 @@
+[
+    {
+        "inputs": [],
+        "name": "counter",
+        "outputs": [
+            {
+                "name": "counter",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "lastExecuted",
+        "outputs": [
+            {
+                "name": "lastExecuted",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "probeTask",
+        "outputs": [
+            {
+                "name": "taskReady",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "executeTask",
+        "outputs": [],
+        "type": "function"
+    }
+]
