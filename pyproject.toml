@@ -8,7 +8,7 @@ authors = ["Peteris Erins <peteris@auditless.com>"]
 python = "3.9.13"
 click = "^8.0.3"
 python-dotenv = "^0.19.2"
-"starknet.py" = "^0.2.4-alpha.0"
+"starknet.py" = "0.3.4a0"
 cairo-nile = "^0.6.1"
 
 [tool.poetry.dev-dependencies]
