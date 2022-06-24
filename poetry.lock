@@ -103,7 +103,7 @@ description = "Compiler and runner for the Cairo language"
 name = "cairo-lang"
 optional = false
 python-versions = ">=3.6"
-version = "0.8.2.1"
+version = "0.9.0"
 
 [package.dependencies]
 aiohttp = "*"
@@ -826,12 +826,12 @@ description = "A python SDK for StarkNet"
 name = "starknet.py"
 optional = false
 python-versions = ">=3.7.2,<3.10"
-version = "0.2.4a0"
+version = "0.3.4a0"
 
 [package.dependencies]
 asgiref = ">=3.4.1,<4.0.0"
-cairo-lang = "0.8.2.1"
-crypto-cpp-py = ">=1.0.1,<2.0.0"
+cairo-lang = "0.9.0"
+crypto-cpp-py = ">=1.0.4,<2.0.0"
 web3 = ">=5.28.0,<6"
 
 [package.extras]
@@ -980,7 +980,7 @@ docs = ["sphinx", "jaraco.packaging (>=9)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "jaraco.itertools", "func-timeout", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)"]
 
 [metadata]
-content-hash = "fbb830500af2b1a5cd10b0914bc6e4c1fcf49109ae3d2997aac0ceb80b4164a2"
+content-hash = "fea25a704f0b4f8564ce0d26a828fefb407b352d150d7ad6774b34d41d9ac0b7"
 lock-version = "1.1"
 python-versions = "3.9.13"
 
@@ -1091,7 +1091,7 @@ cachetools = [
     {file = "cachetools-5.2.0.tar.gz", hash = "sha256:6a94c6402995a99c3970cc7e4884bb60b4a8639938157eeed436098bf9831757"},
 ]
 cairo-lang = [
-    {file = "cairo-lang-0.8.2.1.zip", hash = "sha256:77e9a6add0c7fdf3a5eee8c146c6e498ad1a60c366de86c03768edef967c8b7a"},
+    {file = "cairo-lang-0.9.0.zip", hash = "sha256:678627df46b3b18771e5e069af1e219bd4c88aaacd692b6042b4d45e0fc05b75"},
 ]
 cairo-nile = [
     {file = "cairo-nile-0.6.1.tar.gz", hash = "sha256:115fe9b2f1ade3b7db3a57142252bd6a6b77018c0c0776eaa36ae7ac0939cde8"},
@@ -1593,7 +1593,7 @@ six = [
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
 "starknet.py" = [
-    {file = "starknet.py-0.2.4a0.tar.gz", hash = "sha256:011a40aec0932e6bac61ac81c2b8bf77e1f3b904a1ff07c90d93563bfea38a81"},
+    {file = "starknet.py-0.3.4a0.tar.gz", hash = "sha256:a10b41cba18e0dd458c5d7c87df22c5aded3ff936a9ed6061b311e65c013dce8"},
 ]
 sympy = [
     {file = "sympy-1.10.1-py3-none-any.whl", hash = "sha256:df75d738930f6fe9ebe7034e59d56698f29e85f443f743e51e47df0caccc2130"},
